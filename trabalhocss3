@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <div class="box-model">
+<head>
+  <style>body{
+  font-family: Arial, Sans-Serif;
+  background-color: #f4f4f4;
+  margin: 20px;
+}
+
+.box-model{
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #007BFF;
+  margin: 30px;
+  background-color: #e0f7fa;
+}
+h1{
+  color: red;
+}</style>
+  <link rel="stylesheet" href="styles.css"/>
+    <title>Trabalho 1</title>
+</head>
+<body>
+    <h1>Lista de Produtos</h1>
+    <table border="1">
+        <tr>
+        <td>Produto</td>
+          <td>Preço</td>
+          <td>Quantidade em Estoque</td> 
+        </tr>
+        <td>Notebook Gamer</td>
+         <td>R$ 20,000</td>
+          <td>20</td>
+          <tr>
+            <td>PS6</td>
+            <td>R$ 10,000</td>
+            <td>3</td>
+          </tr>
+          <td>XBOX ONE</td>
+          <td>R$ 8,000</td>
+          <td>10</td>
+    </table>
+</body>
+</div>
+</html>
